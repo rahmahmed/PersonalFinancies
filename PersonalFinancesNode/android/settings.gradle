@@ -1,0 +1,3 @@
+rootProject.name = 'PersonalFinancesNode'
+
+include ':app'
