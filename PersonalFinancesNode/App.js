@@ -22,7 +22,7 @@ export default class App extends Component<Props> {
     return (
       <View style={styles.container}>
         <View style={styles.budgetContainer}>
-          <Text style={styles.budgetText}>Balance:</Text>
+          <Text style={styles.budgetText}>Balance: </Text>
           <Text style={styles.budgetText}>$1000</Text>
         </View>
         <View style={styles.timeContainer}>
