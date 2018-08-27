@@ -1,17 +1,10 @@
 import React, { Component } from 'react'
 import {
-    AppRegistry,
-    FlatList,
-    Text,
     View,
-    Alert,
     TextInput,
     TouchableHighlight,
     Image,
     Alert,
-    Platform,
-    StyleSheet,
-    RefreshControl
 } from 'react-native'
 import { addNewTask } from '../actions'
 
