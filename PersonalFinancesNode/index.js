@@ -1,5 +1,3 @@
-import App from './App'
-
 import React, { Component } from 'react'
 import { AppRegistry } from 'react-native'
 
@@ -12,7 +10,8 @@ import ManagerComponent from './src/componenets/ListComponent'
 let store = createStore(allReducers)
 const App = () => (
     <Provider store={store}>
-        <ManagerComponent/>
+        <ManagerComponent />
     </Provider>
-)
-AppRegistry.registerComponent('tut'/* appName */, () => App);
+);
+
+AppRegistry.registerComponent('PersonalFinancesNode', () => App);
