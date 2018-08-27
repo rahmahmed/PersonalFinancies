@@ -1,23 +1,9 @@
+
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View, Dimensions, ScrollView} from 'react-native';
-import { Icon } from 'react-native-elements'
+import {StyleSheet, Text, View, Dimensions, ScrollView} from 'react-native';
 var {height, width} = Dimensions.get('window');
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
-  android:
-    'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu',
-});
-
-/* changeStyle() {
-  var num = null
-  num > 1000 ? color = '#f44336' : color = '#4caf50' 
-  return color
-} */
-
-type Props = {};
-export default class App extends Component<Props> {
+export default class App extends Component{
   render() {
     return (
       <View style={styles.container}>
