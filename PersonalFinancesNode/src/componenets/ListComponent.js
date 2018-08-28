@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import {
     FlatList,
-    Alert,
 } from 'react-native'
-import { addNewTask } from '../actions'
 import ItemContainer from '../containers/ItemContainer'
 
 export default class ListComponent extends Component {
@@ -21,7 +19,6 @@ export default class ListComponent extends Component {
                 keyExtractor={( item, index ) => item.taskName}
             >
             </FlatList>
-            
         )
     }
 }

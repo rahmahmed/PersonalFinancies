@@ -11,7 +11,11 @@ import { addNewTask } from '../actions'
 export default class AddComponent extends Component {
     constructor(props) {
         super(props)
+        this.state = ({
+            newTaskName: ''
+        });
     }
+
     render() {
         return (
             <View style={{
@@ -36,7 +40,7 @@ export default class AddComponent extends Component {
                     autoCapitalize='none'
                     onChangeText={
                         (text) => {
-                            this.setState({ newTaskName: task })
+                            this.setState({ newTaskName: text })
                         }
                     }
                 />

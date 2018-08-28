@@ -7,7 +7,7 @@ let newTaskId = 0
 export const addNewTask = (inputTaskName) => {
     return {
         type: ADD_NEW_TASK,
-        taskId: newTaskID++,
+        taskId: newTaskId++,
         task: inputTaskName
     }
 }

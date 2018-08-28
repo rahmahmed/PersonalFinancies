@@ -2,6 +2,7 @@ import AddComponent from '../componenets/AddComponent'
 import { addNewTask } from '../actions'
 import { connect } from 'react-redux'
 
+console.log("Enter Add")
 const mapStateToProps = state => {
     return {
 
